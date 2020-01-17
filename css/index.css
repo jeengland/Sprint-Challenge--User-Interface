@@ -70,8 +70,24 @@ p {
 
 /* Styling for nav */
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 3%;
+    padding-right: 5%;
+}
 
+nav a {
+    text-decoration: none;
+    color: black;
+}
 
+/* Styling to color boxes */
+
+box
+
+/* Styling from initial pull */
 
 .container {
     width: 800px;
