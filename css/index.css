@@ -296,3 +296,40 @@ animation: BoxAnimation 3s ease infinite;
     50%{background-position:97% 100%}
     100%{background-position:4% 0%}
 }
+
+@media screen and (max-device-width: 1024px) {
+    .top-content .text-container {
+        width: 100%;
+        margin-bottom: 7%;     
+    }
+    .top-content div:first-of-type {
+        border-bottom: 1px black dashed;
+        padding-bottom: 4%;
+    }
+    .middle-content {
+        margin-bottom: 10%;
+    }
+    .middle-content h2 {
+        text-align: center;
+        font-size: 200%;
+    }
+    .bottom-content {
+        flex-direction: column;
+    }
+    .bottom-content .text-container {
+        width: 100%;
+        margin-bottom: 7%;
+        border-bottom: 1px black dashed;
+        padding-bottom: 4%;
+    }
+    .about-main {
+        flex-direction: column;
+    }
+    .content {
+        width: 100%;
+        padding-bottom: 8%;
+    }
+    .content img {
+        width: 100%;
+    }
+}
