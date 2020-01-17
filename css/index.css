@@ -220,6 +220,7 @@ footer nav a {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 7%;
 }
 
 .content {
@@ -243,4 +244,12 @@ footer nav a {
     border: black solid 2px;;
     border-radius: 10px;
     padding: 2% 6%;
+}
+
+/* Work section styling */
+
+#work {
+    width: 96%;
+    margin: auto;
+    margin-bottom: 5%;
 }
