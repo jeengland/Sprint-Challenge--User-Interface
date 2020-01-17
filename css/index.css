@@ -212,3 +212,35 @@ footer nav a {
 }
 
 /* -------------------Styling for about.html------------------- */
+
+/* Styling for main section */
+
+.about-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.content {
+    width: 46%;
+    border-bottom: black dashed 1px;
+    margin-top: 7.5%;
+    padding-bottom: 3%;
+}
+
+.content img {
+    margin-bottom: 4%;
+}
+
+.content p {
+    margin-bottom: 8%;
+}
+
+.content a {
+    text-decoration: none;
+    color: black;
+    border: black solid 2px;;
+    border-radius: 10px;
+    padding: 2% 6%;
+}
