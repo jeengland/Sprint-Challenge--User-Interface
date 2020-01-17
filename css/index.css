@@ -213,21 +213,41 @@ footer nav a {
 
 /* -------------------Styling for about.html------------------- */
 
+/* Styling for top section */
+
+.about-top {
+    padding-bottom: 3%;
+    border-bottom: black dashed 1px;
+}
+
+#jumbo-about {
+    margin-bottom: 3%;
+}
+
+.about-top div {
+    width: 97%;
+    margin: auto;
+}
+
 /* Styling for main section */
 
 .about-main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 7%;
 }
 
 .content {
-    width: 46%;
+    width: 45%;
     border-bottom: black dashed 1px;
     margin-top: 7.5%;
     padding-bottom: 3%;
+}
+
+.content:nth-child(1), .content:nth-child(2) {
+    margin-top: 5%;
 }
 
 .content img {
