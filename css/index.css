@@ -66,6 +66,13 @@ p {
     line-height: 1.4;
 }
 
+/* -------------------Styling for index.html------------------- */
+
+/* Styling for nav */
+
+
+
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -144,3 +151,5 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* -------------------Styling for index.html------------------- */
