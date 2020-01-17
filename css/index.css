@@ -284,4 +284,15 @@ footer nav a:hover {
 
 /* -------------------Styling for box animation stretch goal------------------- */
 
+.box:hover {
+background: linear-gradient(315deg, red, orange, yellow, green, blue, indigo, purple, pink);
+background-size: 1600% 1600%;
 
+animation: BoxAnimation 3s ease infinite;
+}
+
+@keyframes BoxAnimation {
+    0%{background-position:4% 0%}
+    50%{background-position:97% 100%}
+    100%{background-position:4% 0%}
+}
