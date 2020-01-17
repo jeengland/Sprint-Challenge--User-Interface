@@ -74,13 +74,19 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    margin-bottom: 3%;
+    margin: 3% 0 6%;
     padding-right: 5%;
 }
 
 nav a {
     text-decoration: none;
     color: black;
+}
+
+/* Styling for top image */
+
+#jumbo{
+    margin-bottom: 5%;
 }
 
 /* Styling to color boxes */
@@ -165,7 +171,6 @@ nav a {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -206,4 +211,4 @@ footer nav a {
     text-decoration: none;
 }
 
-/* -------------------Styling for index.html------------------- */
+/* -------------------Styling for about.html------------------- */
