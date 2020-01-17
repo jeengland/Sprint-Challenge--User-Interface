@@ -66,6 +66,77 @@ p {
     line-height: 1.4;
 }
 
+/* -------------------Styling for index.html------------------- */
+
+/* Styling for nav */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 3% 0 6%;
+    padding-right: 5%;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: grey;
+}
+
+/* Styling for top image */
+
+#jumbo{
+    margin-bottom: 5%;
+}
+
+/* Styling to color boxes */
+
+.box1 {
+    background-color: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
+}
+
+/* Styling from initial pull */
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -104,7 +175,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +213,123 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+footer nav a:hover {
+    color: lightgrey;
+}
+
+/* -------------------Styling for about.html------------------- */
+
+/* Styling for top section */
+
+.about-top {
+    padding-bottom: 3%;
+    border-bottom: black dashed 1px;
+}
+
+#jumbo-about {
+    margin-bottom: 3%;
+}
+
+.about-top div {
+    width: 97%;
+    margin: auto;
+}
+
+/* Styling for main section */
+
+.about-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 7%;
+}
+
+.content {
+    width: 45%;
+    border-bottom: black dashed 1px;
+    margin-top: 7.5%;
+    padding-bottom: 3%;
+}
+
+.content:nth-child(1), .content:nth-child(2) {
+    margin-top: 5%;
+}
+
+.content img {
+    margin-bottom: 4%;
+}
+
+.content p {
+    margin-bottom: 8%;
+}
+
+.content a {
+    text-decoration: none;
+    color: black;
+    border: black solid 2px;;
+    border-radius: 10px;
+    padding: 2% 6%;
+}
+
+/* Work section styling */
+
+#work {
+    width: 96%;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+/* -------------------Styling for box animation stretch goal------------------- */
+
+.box:hover {
+background: linear-gradient(315deg, red, orange, yellow, green, blue, indigo, purple, pink);
+background-size: 1600% 1600%;
+
+animation: BoxAnimation 3s ease infinite;
+}
+
+@keyframes BoxAnimation {
+    0%{background-position:4% 0%}
+    50%{background-position:97% 100%}
+    100%{background-position:4% 0%}
+}
+
+@media screen and (max-device-width: 1024px) {
+    .top-content .text-container {
+        width: 100%;
+        margin-bottom: 7%;     
+    }
+    .top-content div:first-of-type {
+        border-bottom: 1px black dashed;
+        padding-bottom: 4%;
+    }
+    .middle-content {
+        margin-bottom: 10%;
+    }
+    .middle-content h2 {
+        text-align: center;
+        font-size: 200%;
+    }
+    .bottom-content {
+        flex-direction: column;
+    }
+    .bottom-content .text-container {
+        width: 100%;
+        margin-bottom: 7%;
+        border-bottom: 1px black dashed;
+        padding-bottom: 4%;
+    }
+    .about-main {
+        flex-direction: column;
+    }
+    .content {
+        width: 100%;
+        padding-bottom: 8%;
+    }
+    .content img {
+        width: 100%;
+    }
 }
